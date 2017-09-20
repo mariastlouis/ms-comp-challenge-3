@@ -462,12 +462,12 @@ button#copy-button {
 		padding: 20px 0;
 	}
 }
-@media screen and (max-width: 794px) {
+@media screen and (max-width: 815px) {
 	#icon-hide-2 {
 		display: none;
 	}	
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 795px) {
 	.mobile-hidden {
 		visibility: hidden;
 	}
