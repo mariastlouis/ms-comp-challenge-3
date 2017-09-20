@@ -442,15 +442,7 @@ button#copy-button {
 		margin-top: 15px;
 	}
 }
-@media screen and (max-width: 1000px) {
-	#icon-hide-1 {
-		display: none;
-	}
-	.hide-desktop {
-		visibility: visible;
-	}
-}
-@media screen and (max-width: 818px) {
+@media screen and (max-width: 1056px) {
 	.bottom-section {
 		flex-direction: column;
 	}
@@ -460,6 +452,14 @@ button#copy-button {
 	}
 	.social-media-box {
 		padding: 20px 0;
+	}
+}
+@media screen and (max-width: 1000px) {
+	#icon-hide-1 {
+		display: none;
+	}
+	.hide-desktop {
+		visibility: visible;
 	}
 }
 @media screen and (max-width: 815px) {
