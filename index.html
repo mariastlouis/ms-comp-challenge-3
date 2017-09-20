@@ -8,9 +8,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<main> 
+	<main role = "main"> 
 		<aside class = "nav-aside">
-			<nav>
+		<nav role = "navigation">
 				<section class = "top-photo">
 					<img src = "images/liz-lemon.jpg" alt = "Liz Lemon" class = "profile-pic"/>
 					<p> <a href ="#"> Liz Lemon <i class="fa fa-chevron-down nav-icon"></i></a></p>
@@ -19,13 +19,13 @@
 					<div class = "home-nav link-list">
 						<h4 class = "nav-head"><a href ="#"> <i class="fa fa-angle-double-down nav-icon hide"></i>Main</a> </h4>
 						<ul class = "home-links">
-							
+
 							<li><a href="#"> <i class="fa fa-home nav-icon"></i> Home </a></li>
 							<li><a href="#"> <i class="fa fa-briefcase nav-icon"></i> Jobs</a></li>
 							<li><a href="#"> <i class="fa fa-file nav-icon"></i> Resumes</a></li>
 							<li><a href="#"> <i class="fa fa-tasks nav-icon"></i> Tasks</a></li>
 							<li><a href="#"> <i class="fa fa-calendar nav-icon"></i> Calendar</a></li>
-							
+
 						</ul>
 					</div>
 					<div class = "admin-nav link-list">
@@ -50,7 +50,7 @@
 				</section>	
 			</nav>
 		</aside>
-		<section class = "main-container">
+		<section class = "main-container" role = "region">
 			<section class = "top-search">
 				<div class = "left-search-icon search-icon hide-mobile">
 					<i class="fa fa-dedent"></i>
@@ -112,7 +112,7 @@
 								<p class="circle-big-number">912</p>
 								<p class="circle-big-text">FORWARDS</p>
 							</div>
-							
+
 						</div>
 						<div class = "chart-button total-button">TOTALS -- out of 5,231 views</div>
 					</div>
@@ -126,7 +126,7 @@
 					<button class="down-button" id="down-button" type="button"></button>
 					<hr id="left-hr">
 				</div>
-				<section class = "bottom-section">
+				<section class = "bottom-section" role = "region">
 					<div class = "description-box">
 						<article class="table">
 							<table>
@@ -174,11 +174,11 @@
 						</article>
 					</div> <!-- end description box-->
 					<div class = "social-media-box">
-						
+
 						<div class = "facebook social-media">
 							<p><i class="fa fa-facebook social-icon"></i> Post to Facebook </p>
 						</div>
-						
+
 						<div class = "twitter social-media">
 							<p><i class="fa fa-twitter social-icon"></i> Tweet this job </p>
 						</div>
@@ -190,7 +190,7 @@
 								<h2> <i class="fa fa-globe side-link-icon"></i>Link to this job </strong> </h2>
 							</header>
 							<p> carrot cake oat cake cookie cotton candy muffin apple pie.</p>
-							<div class="input-container">
+							<div class="input-container" role="form" aria-labelledby="job link input">
 								<input class="input-bar" placeholder="  https://www.nbc.com/30-rock">
 								<button id="copy-button">Copy</button>
 							</div>
@@ -200,7 +200,8 @@
 								<h2> <i class="fa fa-bullseye side-link-icon"></i>Use the button widget</strong> </h2>
 							</header>
 							<p> This widget embeds the buttons for sharing the job for submitting a resume on your website</p>
-							<div class="input-container">
+							<div class="input-container"
+							role="form" aria-labelledby="button sharing input">
 								<input class="input-bar" placeholder="<script type = text/javascript> </script> ">
 								<button id="copy-button">Copy</button>
 							</div>
@@ -210,12 +211,12 @@
 								<h2> <i class="fa fa-paper-plane side-link-icon"></i>Upload resumes by email</strong> </h2>
 							</header>
 							<p> You can automatically upload multiple resumes to this job by emailing the address below.</p>
-							<div class="input-container">
+							<div class="input-container" role="form" aria-labelledby="upload resumes input">
 								<input class="input-bar" placeholder="address@address.com">
 								<button id="copy-button">Copy</button>
 							</div>
 						</article>
-						
+
 					</div>
 				</section>
 			</section>
